@@ -1,0 +1,290 @@
+body{ 
+    min-height: 100vh;
+    font-family: 'Libre Franklin', sans-serif;
+}
+header{
+    display: inline-block;
+    background: #FFD166;
+    padding: 0.1%;
+}
+.box1{
+    width: 100%;
+}
+.logo{
+    text-align: center;
+}
+.tamanho-logo{
+    width: 12%;
+    height: 12%; 
+}
+.logoinsta{
+    position:absolute;
+    top: 20px;
+    right:20px;
+    text-align: right;
+    vertical-align: top;
+}
+.tamanho-logoinsta{
+    width: 5%;
+    height: 5%; 
+}
+.textoinsta{
+    position:absolute;
+    top: 25px;
+    right:55px;
+    text-align: right;
+    vertical-align: top;
+    font-size: 15px;
+    color:#F1743B;
+}
+.textoinsta a{
+    color:#F1743B;
+    text-decoration: none;
+}
+.menu{
+    font-family: 'Bona Nova', serif;
+    text-align: center;
+    display: block;
+    padding: 0.6%;
+    background-color: #F1743B;
+}
+.menu li{
+    display: inline;
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 2%;
+    color: #FFD166;
+    font-size: 110%;
+    font-weight: bold;
+}
+.menu a{
+    color: #FFD166;
+    text-decoration: none;
+}
+.apresentacao{
+    display: inline-block;
+    background-color: #B0DEC6;
+    padding: 0.5% 1%;
+    text-align: center;
+}
+.texto-apresentacao{
+    display: inline-block;
+    text-align: left;
+    clear: both;
+    font-size: 30px;
+    color: #16258A;
+    line-height: 1.2em;
+    vertical-align: 150%;  
+}
+.foto-apresentacao1, .foto-apresentacao2{
+    display: inline-block;
+    width:13%;
+}
+.foto-apresentacao1{
+    rotate: -1.7deg;
+    margin: 1%;
+}
+.foto-apresentacao2{
+    rotate: 5deg;
+    margin: 1%;
+}
+.foto-apresentacao1:hover, .foto-apresentacao2:hover {
+    width:13.05%
+}
+.tamanho-foto-apresentacao{
+    width:100%;
+}
+.corpo{
+    display: block;
+    background: #FFC2E2;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    width: 50%;
+    float:left;
+    height: 590px;
+}
+.corpo h1{
+    display: inline-block;
+    font-size: 25px;
+    color: #16258A;
+    line-height: 1.2em;
+    vertical-align: top;
+}
+p strong, h1 strong{
+    font-weight: bold;
+}
+.titulo-corpo{
+    text-align: left;
+    margin-left: 40px; 
+}
+.titulo-corpo2{
+    text-align: right;
+    margin-left: 40px; 
+}
+.corpo p{
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    color: #16258A;
+    line-height: 1.2em;
+    vertical-align: top;
+    margin-left: 40px;    
+}
+.corpo, .corpo2{
+    padding-top: 40px;
+}
+.corpo3{
+    padding-top: 1%; 
+}
+.corpo2, .corpo3{
+    display: block;
+    background: #FFC2E2;
+    width:46%;
+    padding-left: 2%;
+    float:right;
+    height:295px;
+}
+.corpo2 p, .corpo3 p{ 
+    width:50%;
+    font-size: 42px;
+    color: #16258A;
+    line-height: 1.2em;
+}
+.corpo2 p{
+    text-align: left;
+    margin-left: 45%;
+    margin-top: 30px;
+}
+.corpo3 p{ 
+    text-align: right;
+    margin-left: 0%;
+}
+.foto-perfil, .foto-perfil2{
+    position:absolute;
+    display: block;
+    width:15%;
+    border-radius: 100%;
+}
+.foto-perfil2:hover, .foto-perfil3:hover{
+    width:0%;
+}
+.foto-perfil2, .foto-perfil3 {
+    animation: trade 3.5s ease-out infinite;
+    animation-delay: 0.5s;
+}
+.foto-perfil3, .foto-perfil4{
+    position:absolute;
+    top:720px;
+    right:90px;
+    display: block;
+    width:15%;
+    border-radius: 100%;
+}
+.logo-rodape{
+    text-align: center;
+}
+.rodape{
+    display: block;
+    background: #B892FF;
+    padding: 0.1%;
+}
+.texto-rodape{
+    text-align: center;
+    margin: 0 0 10px 0;
+    color:#B1E6C9;
+}
+@keyframes trade {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+/*Estilização Página de Produtos*/
+
+.promocao{
+    display: block;
+    background: #BA90C5;
+    padding: 0.7%;
+}
+.promocao marquee{
+    font-size: 15px;
+    color:#16258A;
+    font-weight: bolder;
+}
+.instrucoes{
+    display: block;
+    background: #FFC2E2;
+    padding: 4%;
+    text-align: center;
+}
+.titulo-instrucoes{
+    font-size: 25px;
+    color:#16258A;
+    line-height: 1.5em;
+}
+.titulo-instrucoes a{
+    font-weight: bold;
+    color: #16258A;
+    text-decoration: none;
+}
+.produtos{
+    background-color: #B0DEC6;
+    padding:3%;
+    text-align: center;
+}
+.produtos li{
+    display: inline-block;
+    vertical-align:middle;
+    text-align: center;
+    width:20%;
+    box-sizing: border-box;
+    border: 1px;
+    background-color: white;
+    margin:20px;
+    border-top: 30px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+}
+.titulo-produtos{
+    font-size: 25px;
+}
+.preco-produtos{
+    font-size: 15px;
+}
+.preco-produtos a{
+    font-weight: bold;
+    color: #16258A;
+    text-decoration: none;
+}
+.preco-produtos:hover a, .titulo-instrucoes:hover a{
+    font-weight: bold;
+    color: #F1743B;
+    text-decoration: none;
+    transition:500ms;
+}
+.codigo-produtos{
+    font-size: 15px;
+    padding: 30px;
+}
+.titulo-produtos,.preco-produtos, .codigo-produtos{
+    color:#16258A;
+    margin:2%;
+    padding:5px;
+}
+.imgvertical, .imghorizontal{
+    vertical-align: middle;
+}
+.imgvertical{
+    width:80%;
+}
+.imghorizontal{
+    width: 90%;
+}
+.preencher{
+    background-color: #FFC2E2;
+    padding:15%;
+}

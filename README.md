@@ -18,7 +18,7 @@ Nesse projeto, enxergo diversas melhorias que podem ser realizadas:
 - Separar imagens e páginas em pastas diferentes;
 - Padronizar nomes das divisões da página em inglês;
 - Uso de variáveis para as cores usadas em CSS;
-- Variar o uso de tags no html (utilizei muitas <div>)
+- Variar o uso de tags no html (utilizei muitas <div>).
 
 Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc
 

@@ -20,6 +20,5 @@ Nesse projeto, enxergo diversas melhorias que podem ser realizadas:
 - Uso de variáveis para as cores usadas em CSS;
 - Variar o uso de tags no html (utilizei muitas <div>).
 
-Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc
 
 
